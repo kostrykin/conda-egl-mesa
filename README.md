@@ -11,8 +11,8 @@ Inside the Docker container:
 ```
 
 The test fails with the error:
-> EGL\_DEFAULT\_DISPLAY initialization failed
-> 0 EGL device(s) found
+> EGL\_DEFAULT\_DISPLAY initialization failed<br>
+> 0 EGL device(s) found<br>
 > FAIL!
 
-But it passes after running `apt install libegl-mesa0` inside the Docker container (after running `apt update` first).
+But it passes after running `apt update && apt install libegl-mesa0` inside the Docker container.
