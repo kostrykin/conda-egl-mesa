@@ -16,3 +16,5 @@ The test fails with the error:
 > FAIL!
 
 But it passes after running `apt update && apt install libegl-mesa0` inside the Docker container.
+
+Discussion is on https://github.com/conda-forge/mesalib-feedstock/issues/117
