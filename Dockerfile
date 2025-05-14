@@ -17,4 +17,4 @@ RUN arch=$(uname -m) && \
     bash miniconda.sh -b -p /root/miniconda3 && \
     rm -f miniconda.sh
 
-RUN conda --version
+RUN conda init
